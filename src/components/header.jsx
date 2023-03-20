@@ -1,13 +1,19 @@
 import React from "react";
+import { Header } from "@/styles/HeaderStyle";
 
-const Header = () => {
-  return (
-    <>
+
+const HeaderComponent = () => {
+  
+    return (
+
+        
+    <Header>
+
       <section>Logo</section>
       <section>
         <h1>
           Se você é mamãe e recebeu salário maternidade nos últimos 5 anos,
-          FIQUE ATENTA!{" "}
+          FIQUE ATENTA!
         </h1>
         <h3>
           É possível que o benefício tenha sido pago em um valor menor pelo
@@ -18,8 +24,9 @@ const Header = () => {
           e entrar em contato com nossa equipe para obter mais informações.
         </p>
       </section>
-    </>
+      </Header>
+      
   );
 };
 
-export default Header;
+export default HeaderComponent;

@@ -1,7 +1,6 @@
-import Head from 'next/head'
+import HeaderComponent from "@/components/Header";
 
-
-const inter = Inter({ subsets: ['latin'] })
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -13,8 +12,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-       
+        
+          <HeaderComponent>
+
+          </HeaderComponent>
+      
       </main>
     </>
-  )
+  );
 }
