@@ -32,13 +32,7 @@ const HeaderComponent = () => {
           </h3>
           <button>
             <div>
-              <Image
-                src="/whatsappicon.png"
-                alt="WhatsApp"
-                width={30}
-                height={30}
-                style={{ backgroundColor: "red" }}
-              />
+            <i class="fa-brands fa-whatsapp"></i>
               Fale conosco agora pelo WhatsApp
             </div>
           </button>

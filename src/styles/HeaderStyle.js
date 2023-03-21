@@ -3,6 +3,7 @@ import HeaderBgImg from "../../public/headerImg.jpg";
 
 export const HeaderWrapper = styled.div`
   position: relative;
+  height: 100vh;
 `;
 
 export const BackgroundImage = styled.div`
@@ -35,7 +36,7 @@ export const Header = styled.header`
   height: 100%;
 
   text-align: center;
-  padding: .5rem;
+  padding: 0.5rem;
   box-sizing: border-box;
   z-index: 1;
 `;
@@ -44,8 +45,9 @@ export const LogoSection = styled.section`
   position: relative;
   z-index: 2;
   color: black;
+  margin-bottom: 2rem;
 
-  >h1{
+  > h1 {
     color: gray;
   }
 `;
@@ -55,38 +57,46 @@ export const HeaderDescSection = styled.section`
   z-index: 2;
   color: black;
 
-  >h1{
+  > h1 {
     color: #fff;
     text-align: left;
     line-height: 90%;
   }
 
-  >h3{
+  > h3 {
     color: #fff;
     text-align: left;
     line-height: 90%;
   }
 
-  p{
+  p {
     color: #fff;
     text-align: left;
     line-height: 90%;
   }
 
-  button{
+  button {
     width: 90%;
-    padding: .5rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
     border-radius: 4px;
     border: none;
-    background-color: lightgreen;
+    background-color: #25d366;
     color: #fff;
     font-weight: bold;
-    font-size:.9rem;
-    
-    div{
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+
+    div {
       display: flex;
       align-items: center;
-      gap:.5rem;
+      gap: 0.5rem;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      background-color: #fff;
+      color: #25d366;
     }
   }
 `;
