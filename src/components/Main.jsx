@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {
+  ServiceBox,
   BottomSection,
   LegalDecisionsBox,
   Main,
@@ -154,12 +155,12 @@ export const MainComponent = () => {
           </button>
         </LegalDecisionsBox>
       </BottomSection>
-      <div>
+      <ServiceBox>
         <h3>SOBRE O ATENDIMENTO</h3>
         <h2>COMO FUNCIONA O PROCESSO</h2>
         <div>
           <span>1</span>
-          <p>Contaco om o escritório e contratação</p>
+          <p>Contato om o escritório e contratação</p>
         </div>
         <div>
           <span>2</span>
@@ -177,7 +178,7 @@ export const MainComponent = () => {
           <span>5</span>
           <p>Acompanhamento direto com o advogado</p>
         </div>
-      </div>
+      </ServiceBox>
     </Main>
   );
 };

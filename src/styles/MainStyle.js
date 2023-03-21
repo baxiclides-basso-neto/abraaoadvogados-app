@@ -62,36 +62,35 @@ export const BottomSection = styled.section`
     color: #4395b3;
     margin-top: 0rem;
   }
-
 `;
 
 export const QuestionsBox = styled.div`
-  background-color:#4395b3; 
+  background-color: #2c677c;
   color: #fff;
   border-radius: 4px;
   margin-bottom: 2.5rem;
 
-  div{
+  div {
     border-bottom: 1px solid #fff;
     padding: 1rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 
-    >span{
-      margin-right:.5rem;
+
+    > span {
+      margin-right: 0.5rem;
       font-weight: bold;
     }
   }
-`
+`;
 
-export const LegalDecisionsBox = styled.div` 
-
-
-  p{
+export const LegalDecisionsBox = styled.div`
+  p {
     text-align: justify;
     background-color: #fff;
-    padding: .5rem;
+    padding: 0.5rem;
     border-radius: 4px;
 
-    span{
+    span {
       font-weight: bolder;
     }
   }
@@ -121,4 +120,30 @@ export const LegalDecisionsBox = styled.div`
       color: #25d366;
     }
   }
-`
+`;
+
+export const ServiceBox = styled.div`
+  h3 {
+    color: #4395b3;
+  }
+
+  h2 {
+    color: #4395b3;
+  }
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c677c;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-weight: bold;
+    min-height: 85px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  }
+`;
