@@ -1,6 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import { Footer, LawyerPic } from "@/styles/FooterStyle";
+import {
+  ContactsBox,
+  Footer,
+  FooterBottom,
+  LawyerPic,
+} from "@/styles/FooterStyle";
 
 const FooterComponent = () => {
   return (
@@ -34,7 +39,7 @@ const FooterComponent = () => {
           forma ágil e eficiente.
         </p>
       </div>
-      <div>
+      <ContactsBox>
         <h2>CONTATO</h2>
         <h3>Silva e Silva Advogados</h3>
         <div>
@@ -55,7 +60,11 @@ const FooterComponent = () => {
           />
           <span>(11) 99873526</span>
         </div>
-      </div>
+      </ContactsBox>
+      <FooterBottom>
+        <h2>Logo</h2>
+        <h4>&copy; Todos os direitos reservados</h4>
+      </FooterBottom>
     </Footer>
   );
 };

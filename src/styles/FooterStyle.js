@@ -47,3 +47,42 @@ export const Footer = styled.footer`
 export const LawyerPic = styled(Image)`
   margin: 0 auto;
 `;
+
+export const ContactsBox = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  > h3 {
+    margin-bottom: 2rem;
+  }
+
+  > div {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+
+  }
+`;
+
+export const FooterBottom = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  #fff;
+  font-size: .5rem;
+  border-top: 1px solid #000;
+  margin: .5rem;
+  
+  h2{
+    color: black !important;
+    margin-top: 1rem;
+  }
+  h4{
+    color: black !important;
+  }
+
+
+`;

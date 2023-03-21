@@ -98,7 +98,7 @@ export const LegalDecisionsBox = styled.div`
     width: 90%;
     margin-top: 1rem;
     margin-left: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     padding: 0.5rem;
     border-radius: 4px;
     border: none;
