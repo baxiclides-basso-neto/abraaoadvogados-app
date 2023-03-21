@@ -35,8 +35,7 @@ export const Header = styled.header`
   flex-direction: column;
   height: 100%;
 
-  text-align: center;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   box-sizing: border-box;
   z-index: 1;
 `;
@@ -46,6 +45,7 @@ export const LogoSection = styled.section`
   z-index: 2;
   color: black;
   margin-bottom: 2rem;
+  text-align: center;
 
   > h1 {
     color: gray;
@@ -60,24 +60,25 @@ export const HeaderDescSection = styled.section`
   > h1 {
     color: #fff;
     text-align: left;
-    line-height: 90%;
+    line-height: 95%;
   }
 
   > h3 {
     color: #fff;
     text-align: left;
-    line-height: 90%;
+    line-height: 95%;
   }
 
   p {
     color: #fff;
     text-align: left;
-    line-height: 90%;
+    line-height: 95%;
   }
 
   button {
     width: 90%;
     margin-top: 1rem;
+    margin-left: 0;
     padding: 0.5rem;
     border-radius: 4px;
     border: none;

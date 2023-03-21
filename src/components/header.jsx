@@ -6,7 +6,7 @@ import {
   HeaderWrapper,
   LogoSection,
 } from "@/styles/HeaderStyle";
-import Image from "next/image";
+
 
 const HeaderComponent = () => {
   return (
@@ -32,7 +32,7 @@ const HeaderComponent = () => {
           </h3>
           <button>
             <div>
-            <i class="fa-brands fa-whatsapp"></i>
+            
               Fale conosco agora pelo WhatsApp
             </div>
           </button>
