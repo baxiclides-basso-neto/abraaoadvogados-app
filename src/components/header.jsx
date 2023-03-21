@@ -30,17 +30,19 @@ const HeaderComponent = () => {
             Não se preocupe, estamos aqui para ajudar! Basta clicar no botão
             verde e falar com nossa equipe!
           </h3>
-          <button>
-            <div>
-              <Image
-                src="/icone whatsapp.png"
-                alt="Ícone do WhatsApp"
-                width={30}
-                height={30}
-              />
-              Fale conosco agora pelo WhatsApp
-            </div>
-          </button>
+          <div>
+            <button>
+              <div>
+                <Image
+                  src="/icone whatsapp.png"
+                  alt="Ícone do WhatsApp"
+                  width={30}
+                  height={30}
+                />
+                Fale conosco agora pelo WhatsApp
+              </div>
+            </button>
+          </div>
         </HeaderDescSection>
       </Header>
     </HeaderWrapper>

@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <HeaderComponent />
         <MainComponent />
-        <FooterComponent/>
+        <FooterComponent />
       </main>
     </>
   );

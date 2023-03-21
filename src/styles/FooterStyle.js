@@ -5,6 +5,8 @@ export const Footer = styled.footer`
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
 
   h2 {
     color: #4395b3;
@@ -48,41 +50,41 @@ export const LawyerPic = styled(Image)`
   margin: 0 auto;
 `;
 
-export const ContactsBox = styled.div`
+export const FooterBottom = styled.section`
+  border-top: 1px solid #000;
+  margin-top: 1rem;
+`;
+
+export const FooterBottomWrapperContext = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
 
-  > h3 {
-    margin-bottom: 2rem;
+  h4 {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
   }
 
   > div {
     display: flex;
-    gap: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
+    flex-direction: column;
 
+    > div {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      padding: 0.5rem;
+      
+
+      > span {
+        font-size: 1rem;
+      }
+    }
   }
-`;
-
-export const FooterBottom = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color:  #fff;
-  font-size: .5rem;
-  border-top: 1px solid #000;
-  margin: .5rem;
-  
-  h2{
-    color: black !important;
-    margin-top: 1rem;
+  h5 {
+    margin-top: .5rem;
+    text-align: center;
   }
-  h4{
-    color: black !important;
-  }
-
-
 `;

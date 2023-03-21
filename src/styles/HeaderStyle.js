@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import HeaderBgImg from "../../public/headerImg.jpg";
-import Image from "next/image";
+
 
 export const HeaderWrapper = styled.div`
   position: relative;
@@ -31,6 +31,8 @@ export const BackgroundImage = styled.div`
 `;
 
 export const Header = styled.header`
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -75,10 +77,20 @@ export const HeaderDescSection = styled.section`
     line-height: 95%;
   }
 
+  @media (min-width: 769px) {
+    > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
   button {
     width: 90%;
+    max-width: 320px;
     margin-top: 1rem;
     margin-left: 0;
+    margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 4px;
     border: none;
@@ -98,13 +110,8 @@ export const HeaderDescSection = styled.section`
       transform: scale(1.05);
       background-color: #fff;
       color: #25d366;
+      border: 1px solid  #25d366;
+      
     }
   }
 `;
-
-export const StyledImage = styled(Image)`
-  svg {
-    fill: ${props => props.color} !important;
-  }
-`;
-

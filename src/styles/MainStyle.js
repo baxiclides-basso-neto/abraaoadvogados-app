@@ -6,6 +6,11 @@ export const Main = styled.main`
   flex-direction: column;
   padding: 1rem;
   background-color: #f2f2f2;
+
+  div {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 `;
 
 export const TopSection = styled.section`
@@ -27,6 +32,7 @@ export const TopSection = styled.section`
   }
   button {
     width: 90%;
+    max-width: 320px;
     margin-top: 1rem;
     margin-left: 0;
     margin-bottom: 3rem;
@@ -49,19 +55,22 @@ export const TopSection = styled.section`
       transform: scale(1.05);
       background-color: #fff;
       color: #25d366;
+      border: 1px solid #25d366;
+    }
+  }
+
+  @media (min-width: 769px) {
+    > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 `;
 
 export const BottomSection = styled.section`
-  display: flex;
-  flex-direction: column;
-
-  > h1 {
-    text-align: center;
-    color: #4395b3;
-    margin-top: 0rem;
-  }
+  /* display: flex;
+  flex-direction: column; */
 `;
 
 export const QuestionsBox = styled.div`
@@ -69,12 +78,19 @@ export const QuestionsBox = styled.div`
   color: #fff;
   border-radius: 4px;
   margin-bottom: 2.5rem;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  > h1 {
+    text-align: center;
+  }
 
   div {
-    border-bottom: 1px solid #fff;
     padding: 1rem;
+    padding-bottom: 1.5rem;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-
+    min-height: 40px;
 
     > span {
       margin-right: 0.5rem;
@@ -84,6 +100,11 @@ export const QuestionsBox = styled.div`
 `;
 
 export const LegalDecisionsBox = styled.div`
+  > h1 {
+    margin-top: 2rem;
+    text-align: center;
+    color: #4395b3;
+  }
   p {
     text-align: justify;
     background-color: #fff;
@@ -94,11 +115,14 @@ export const LegalDecisionsBox = styled.div`
       font-weight: bolder;
     }
   }
-  button {
+`;
+export const BottomSecBtnBox = styled.div`
+  > button {
     width: 90%;
+    max-width: 320px;
     margin-top: 1rem;
     margin-left: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 4px;
     border: none;
@@ -118,17 +142,25 @@ export const LegalDecisionsBox = styled.div`
       transform: scale(1.05);
       background-color: #fff;
       color: #25d366;
+      border: 1px solid #25d366;
     }
+  }
+  @media (min-width: 769px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
 export const ServiceBox = styled.div`
   h3 {
     color: #4395b3;
+    text-align: center;
   }
 
   h2 {
     color: #4395b3;
+    text-align: center;
   }
 
   > div {
