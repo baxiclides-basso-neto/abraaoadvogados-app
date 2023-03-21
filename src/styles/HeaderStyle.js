@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import HeaderBgImg from "../../public/headerImg.jpg";
+import Image from "next/image";
 
 export const HeaderWrapper = styled.div`
   position: relative;
-  height: 100vh;
 `;
 
 export const BackgroundImage = styled.div`
@@ -101,3 +101,10 @@ export const HeaderDescSection = styled.section`
     }
   }
 `;
+
+export const StyledImage = styled(Image)`
+  svg {
+    fill: ${props => props.color} !important;
+  }
+`;
+
