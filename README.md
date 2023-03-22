@@ -1,38 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="Abraaoadvogados App" />
 
-## Getting Started
+  &#xa0;
 
-First, run the development server:
+  <!-- <a href="https://abraaoadvogadosapp.netlify.app">Demo</a> -->
+</div>
+
+<h1 align="center">Abraaoadvogados App</h1>
+
+<p align="center">
+   <img alt="Github top language" src="https://img.shields.io/github/languages/top/baxiclides-basso-neto/abraaoadvogados-app?color=56BEB8&logo=javascript">
+
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/baxiclides-basso-neto/abraaoadvogados-app?color=56BEB8">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/baxiclides-basso-neto/abraaoadvogados-app?color=56BEB8">
+
+  <img alt="License" src="https://img.shields.io/github/license/baxiclides-basso-neto/abraaoadvogados-app?color=56BEB8">
+
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/baxiclides-basso-neto" target="_blank">Author</a>
+</p>
+
+<br>
+## :dart: About ##
+
+Landing page em Next.js: o projeto é construído em Next.js, uma plataforma de desenvolvimento web que permite a criação de aplicativos web escaláveis e de alto desempenho e que tem como objetivo fornecer aos usuários informações relevantes sobre um serviço específico oferecido pelo escritório do meu cliente. A página é projetada para apresentar o serviço de uma forma clara e concisa, destacando seus benefícios e como ele pode ajudar os usuários. Através do uso de design limpo e intuitivo, a página é fácil de navegar e permite que os usuários encontrem rapidamente as informações que estão procurando.
+
+Além de apresentar informações sobre o serviço, a landing page também apresenta informações sobre o advogado responsável pelo serviço. Isso inclui informações sobre a sua experiência, formação e outras credenciais relevantes que possam ajudar a estabelecer sua credibilidade como profissional. Essas informações ajudam a criar um senso de confiança e transparência para os usuários.
+
+Para incentivar a comunicação entre o advogado e os usuários, a página também apresenta botões que permitem que os usuários entrem em contato diretamente com o advogado pelo WhatsApp. Isso facilita a comunicação e ajuda a garantir que os usuários tenham acesso às informações adicionais que possam precisar sobre o serviço.
+
+Em resumo, a landing page em Next.js é projetada para fornecer aos usuários informações relevantes sobre um serviço específico oferecido pelo escritório e atrair novos clientes. Através do uso de design intuitivo, informações claras e comunicação direta com o advogado responsável, a página ajuda a estabelecer a credibilidade do serviço e a fornecer aos usuários uma maneira fácil de entrar em contato com o escritório para obter mais informações.
+
+## :sparkles: Features ##
+
+:heavy_check_mark: Informações detalhadas sobre o serviço: a landing page apresenta informações detalhadas sobre o serviço específico oferecido pelo escritório do seu cliente, incluindo seus benefícios e como ele pode ajudar os usuários.
+:heavy_check_mark: Apresentação do cliente advogado: a página apresenta informações sobre o cliente advogado responsável pelo serviço, incluindo sua experiência, formação e outras credenciais relevantes.
+:heavy_check_mark: Botões para contato via WhatsApp: a página apresenta botões que permitem que os usuários entrem em contato diretamente com o advogado responsável pelo serviço via WhatsApp, facilitando a comunicação e ajudando a garantir que os usuários tenham acesso às informações adicionais que possam precisar sobre o serviço.
+
+## :rocket: Technologies ##
+
+The following tools were used in this project:
+
+- [NextJS](https://nextjs.org/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Styled-components](https://styled-components.com/)
+
+## :white_check_mark: Requirements ##
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+## :checkered_flag: Starting ##
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone this project
+$ git clone https://github.com/baxiclides-basso-neto/abraaoadvogados-app
+
+# Access
+$ cd abraaoadvogados-app
+
+# Install dependencies
+$ yarn
+
+# Run the project
+$ yarn start
+
+# The server will initialize in the <http://localhost:3000>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :memo: License ##
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+This project is under license from MIT. For more details, see the [LICENSE](license) file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Made with :heart: by <a href="https://github.com/baxiclides-basso-neto" target="_blank">BAXICLIDES BASSO NETO</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+&#xa0;
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="#top">Back to top</a>
