@@ -59,6 +59,7 @@ export const TopSection = styled.section`
       background-color: #fff;
       color: #25d366;
       border: 1px solid #25d366;
+      cursor: pointer;
     }
   }
 
@@ -95,6 +96,10 @@ export const QuestionsBox = styled.div`
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
     min-height: 40px;
 
+    &:hover {
+      cursor: pointer;
+    }
+
     > span {
       margin-right: 0.5rem;
       font-weight: bold;
@@ -127,7 +132,7 @@ export const BottomSecBtnBox = styled.div`
     height: 3rem;
     margin-top: 1rem;
     margin-left: 0;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 4px;
     border: none;
@@ -149,6 +154,7 @@ export const BottomSecBtnBox = styled.div`
       background-color: #fff;
       color: #25d366;
       border: 1px solid #25d366;
+      cursor: pointer;
     }
   }
 

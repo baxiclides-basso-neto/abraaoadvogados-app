@@ -113,6 +113,7 @@ export const HeaderDescSection = styled.section`
       background-color: #fff;
       color: #25d366;
       border: 1px solid #25d366;
+      cursor: pointer;
     }
   }
 `;
