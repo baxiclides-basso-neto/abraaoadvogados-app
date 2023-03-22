@@ -185,4 +185,17 @@ export const ServiceBox = styled.div`
     text-align: center;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   }
+
+  > div:last-of-type {
+    background-color: #ff7f7f;
+
+    &:hover {
+      background-color: red;
+    }
+  }
+
+  > div:hover {
+    background-color: rgba(44, 103, 124, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+  }
 `;
