@@ -44,6 +44,30 @@ export const Footer = styled.footer`
       margin-bottom: 1.5rem;
     }
   }
+
+  @media (min-width: 769px) {
+    display: flex;
+    flex-direction: row;
+
+    padding: 0;
+
+    section {
+      width: 40%;
+    }
+
+    div {
+      margin-top: 0;
+      width: 60%;
+      border-radius: none;
+      box-shadow: none;
+      max-height: 491px;
+      border-radius: 0;
+    }
+
+    p {
+      margin-top: 3rem;
+    }
+  }
 `;
 
 export const LawyerPic = styled(Image)`
@@ -76,7 +100,6 @@ export const FooterBottomWrapperContext = styled.div`
       gap: 0.5rem;
       align-items: center;
       padding: 0.5rem;
-      
 
       > span {
         font-size: 1rem;
@@ -84,7 +107,7 @@ export const FooterBottomWrapperContext = styled.div`
     }
   }
   h5 {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     text-align: center;
   }
 `;

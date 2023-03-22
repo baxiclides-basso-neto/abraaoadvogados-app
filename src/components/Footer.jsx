@@ -11,16 +11,20 @@ const FooterComponent = () => {
   return (
     <>
       <Footer>
-        <h3>Quem somos</h3>
-        <h2>Sobre o especialista</h2>
-        <LawyerPic
-          src="/advogadoImg.jpg"
-          alt="Ícone do WhatsApp"
-          width={300}
-          height={300}
-        />
+        <section>
+          {/* <h3>Quem somos</h3>
+          <h2>Sobre o especialista</h2> */}
+          <LawyerPic
+            src="/advogadoImg2.jpg"
+            alt="Ícone do WhatsApp"
+            width={300}
+            height={300}
+            objectFit="cover"
+            layout="responsive"
+          />
+        </section>
         <div>
-          <h2>Abrão dos Santos Filho</h2>
+          <h2>Abraão dos Santos Filho</h2>
           <h3>OAB/SP 250.283</h3>
           <p>
             O advogado Pedro Henrique é um profissional com mais de 10 anos de
@@ -41,7 +45,6 @@ const FooterComponent = () => {
           </p>
         </div>
       </Footer>
-
       <FooterBottom>
         <FooterBottomWrapperContext>
           <h4>

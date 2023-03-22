@@ -33,6 +33,8 @@ export const TopSection = styled.section`
   button {
     width: 90%;
     max-width: 320px;
+    width: 320px;
+    height: 3rem;
     margin-top: 1rem;
     margin-left: 0;
     margin-bottom: 3rem;
@@ -53,6 +55,7 @@ export const TopSection = styled.section`
 
     &:hover {
       transform: scale(1.05);
+      transform-origin: center;
       background-color: #fff;
       color: #25d366;
       border: 1px solid #25d366;
@@ -120,9 +123,11 @@ export const BottomSecBtnBox = styled.div`
   > button {
     width: 90%;
     max-width: 320px;
+    width: 320px;
+    height: 3rem;
     margin-top: 1rem;
     margin-left: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     padding: 0.5rem;
     border-radius: 4px;
     border: none;
@@ -140,11 +145,13 @@ export const BottomSecBtnBox = styled.div`
 
     &:hover {
       transform: scale(1.05);
+      transform-origin: center;
       background-color: #fff;
       color: #25d366;
       border: 1px solid #25d366;
     }
   }
+
   @media (min-width: 769px) {
     display: flex;
     justify-content: center;

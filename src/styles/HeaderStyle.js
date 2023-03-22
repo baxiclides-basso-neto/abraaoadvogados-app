@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import HeaderBgImg from "../../public/headerImg.jpg";
 
-
 export const HeaderWrapper = styled.div`
   position: relative;
 `;
@@ -88,9 +87,11 @@ export const HeaderDescSection = styled.section`
   button {
     width: 90%;
     max-width: 320px;
+    width: 320px;
+    height: 3rem;
     margin-top: 1rem;
     margin-left: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     padding: 0.5rem;
     border-radius: 4px;
     border: none;
@@ -108,10 +109,10 @@ export const HeaderDescSection = styled.section`
 
     &:hover {
       transform: scale(1.05);
+      transform-origin: center;
       background-color: #fff;
       color: #25d366;
-      border: 1px solid  #25d366;
-      
+      border: 1px solid #25d366;
     }
   }
 `;
