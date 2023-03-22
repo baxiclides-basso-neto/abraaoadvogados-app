@@ -68,7 +68,7 @@ const FooterComponent = () => {
                 width={20}
                 height={20}
               />
-              <span>(11) 99873526</span>
+              <span>abraao@silvaesilva.com.br</span>
             </div>
           </div>
           <h5>&copy; Todos os direitos reservados</h5>

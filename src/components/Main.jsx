@@ -168,7 +168,7 @@ export const MainComponent = () => {
           <h2>COMO FUNCIONA O PROCESSO</h2>
           <div>
             <span>1</span>
-            <p>Contato om o escritório e contratação</p>
+            <p>Contato com o escritório e contratação</p>
           </div>
           <div>
             <span>2</span>

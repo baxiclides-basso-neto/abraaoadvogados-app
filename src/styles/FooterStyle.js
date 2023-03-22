@@ -110,4 +110,10 @@ export const FooterBottomWrapperContext = styled.div`
     margin-top: 0.5rem;
     text-align: center;
   }
+
+  @media(min-width: 769px){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 `;
